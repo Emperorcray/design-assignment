@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    overflow-x: hidden;   
+}
+
+/* Media queries for devives with 1900px width and above */
+@media screen and (min-width: 1900px){
+    /* Header styles for devices with 1900px width and above */
+    header{
+        height: 100px;
+        width: 100%;
+        position: fixed;
+    }
+
+    /* Navigation styles for devices with 1900px width and above */
+    nav{
+        height: 100%;
+        width: 100%;
+        border: 1px solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo{
+        width: 300px;
+        border: 1px solid;
+        font-size: 30px;
+        font-weight: 600;
+        align-content: center;
+        text-align: center;
+    }
+
+    .nav_links{
+        height: 100%;
+        width: 800px;
+        border: 1px solid;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav_links>a{
+        text-decoration: none;
+        color: black;
+    }
+}
