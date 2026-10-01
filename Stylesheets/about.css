@@ -8,7 +8,6 @@ body{
     overflow-x: hidden;   
 }
 
-/* Media queries for devives with 1900px width and above */
 @media screen and (min-width: 1900px){
     /* Header styles for devices with 1900px width and above */
     header{
@@ -62,105 +61,34 @@ body{
         color: white;
 
     }
-
     section{
-        height: 2200px;
+        height: 1000px;
         width: 100%;
     }
-
-    .hello{
-        height: 130px;
+    .about_me{
+        height: 300px;
         width: 100%;
-        display: grid;
-        place-content: center;
-    }
-
-    .hello>p{
-        height: 50px;
-        width: 8vw;
-        border: 2px solid #5672ff;
+        font-weight: 600;
+        font-size: 40px;
         text-align: center;
         align-content: center;
-        border-radius: 26px 26px 26px 26px;
-        font-weight: 600;
-        color: #5672ff;
+        background-color: #85a3ff;
     }
-
-    .first_intro{
-        height: 180px;
-        width: 100%;
-        text-align: center;
-        font-size: 60px;
-        font-weight: 500;
-    }
-
-    .second_intro{
-        height: 700px;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .about{
-        height: 200px;
-        width: 18vw;
-        font-weight: 600;
-        font-size: 20px;
-    }
-
-    .second_intro>img{
-        border-radius: 50%;
-        box-shadow: 0px 0px 15px 0px #5672ff;
-    }
-
-    .second_intro>p{
-        font-weight: 600;
-    }
-
-    .heading{
-        width: 100%;
-        text-align: center;
-        font-size: 35px;
-        font-weight: 600;
-        color: #5672ff;
-    }
-
-    .interests_div{
-        height: 800px;
-        width: 100%;
-    }
-
-    .interests{
-        height: 700px;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .interests>div{
-        height: 600px;
-        width: 600px;
-        border-radius: 3%;
-        box-shadow: 0px 0px 10px 0px #5672ff;
-    }
-    .interests>div:hover{
-        box-shadow: 0px 0px 20px 0px #5672ff;
-        transition-duration: 300ms;
-    }
-
-    .interest_img{
+    .about_section{
         height: 500px;
         width: 100%;
-        border-top-left-radius: inherit;
-        border-top-right-radius: inherit;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
-
-    .interest_title{
-        text-align: center;
-        font-weight: 600;
-        color: #5672ff;
+    .about_img{
+        height: 300px;
+        width: 30vw;
+    }
+    .about_info{
+        height: 300px;
+        width: 30vw;
         font-size: 20px;
+        align-content: center;
     }
 }

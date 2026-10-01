@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    overflow-x: hidden;   
+}
+
+
+@media screen and (min-width: 1900px){
+    /* Header styles for devices with 1900px width and above */
+    header{
+        height: 100px;
+        width: 100%;
+    }
+
+    /* Navigation styles for devices with 1900px width and above */
+    nav{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        background-color: white;
+        box-shadow: 0px 3px 3px 0px #5672ff;
+    }
+
+    .logo{
+        width: 300px;
+        font-size: 30px;
+        font-weight: 600;
+        align-content: center;
+        text-align: center;
+        color: #5672ff;
+    }
+
+    .nav_links{
+        height: 100%;
+        width: 800px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .nav_links>a{
+        text-decoration: none;
+        color: #5672ff;
+        width: 6vw;
+        height: 40px;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        align-content: center;
+        font-weight: 600;
+        transition-duration: 300ms;
+    }
+    .nav_links>a:hover{
+        border: 1px solid #2f43ff;
+        background-color: #2f43ff;
+        color: white;
+
+    }
+
+    section{
+        height: 1000px;
+        width: 100%;
+        border: 1px solid;
+    }
+    .portfolio{
+        height: 300px;
+        width: 100%;
+        background-color: #85a3ff;
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        align-content: center;
+    }
+
+    ul{
+        padding: 100px;
+    }
+    .artifact{
+        height: 50px;
+        width: 30vw;
+        border: 1px solid;
+        display: inline-block;
+        text-align: center;
+        align-content: center;
+        background-color: #5672ff;
+        text-decoration: none;
+        color: white;
+        border-radius: 10px ;
+    }
+}
