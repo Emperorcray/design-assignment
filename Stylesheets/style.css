@@ -8,6 +8,385 @@ body{
     overflow-x: hidden;   
 }
 
+@media screen and (min-width: 0px) and (max-width: 299px){
+    /* Header styles for devices with 1900px width and above */
+    header{
+        height: 100px;
+        width: 100%;
+    }
+
+    /* Navigation styles for devices with 1900px width and above */
+    nav{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        background-color: white;
+        box-shadow: 0px 3px 3px 0px #5672ff;
+    }
+
+    .logo{
+        font-size: 17px;
+        font-weight: 600;
+        align-content: center;
+        text-align: center;
+        color: #5672ff;
+    }
+
+    .nav_links{
+        height: 100%;
+        width: 50px;
+    }
+
+    .nav_links>a{
+        display: none;
+    }
+
+    .sidemenu>i{
+        font-size: 20px;
+    }
+    .sidemenu>i:hover{
+        color: #2f43ff;
+        transition-duration: 300ms;
+        cursor: pointer;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: white; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #5672ff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #2f43ff;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    section{
+        height: 3200px;
+        width: 100%;
+    }
+
+    .hello{
+        height: 130px;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+
+    .hello>p{
+        height: 50px;
+        width: 22vw;
+        border: 2px solid #5672ff;
+        text-align: center;
+        align-content: center;
+        border-radius: 26px 26px 26px 26px;
+        font-weight: 600;
+        color: #5672ff;
+    }
+
+    .first_intro{
+        height: 180px;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .second_intro{
+        height: 800px;
+        width: 100%;
+        display: grid;
+        place-content: center;
+        gap: 30px;
+    }
+
+    .about{
+        width: 94vw;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .second_intro>img{
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px 0px #5672ff;
+        margin-left: 40px;
+    }
+
+    .second_intro>p{
+        height: 200px;
+        width: 92vw;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .heading{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #5672ff;
+    }
+
+    .interests_div{
+        height: 1800px;
+        width: 100%;
+    }
+
+    .interests{
+        height: 1400px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .interests>div{
+        height: 400px;
+        width: 72vw;
+        border-radius: 3%;
+        box-shadow: 0px 0px 10px 0px #5672ff;
+    }
+    .interests>div:hover{
+        box-shadow: 0px 0px 20px 0px #5672ff;
+        transition-duration: 300ms;
+    }
+
+    .interest_img{
+        height: 300px;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+
+    .interest_title{
+        text-align: center;
+        font-weight: 600;
+        color: #5672ff;
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px){
+    /* Header styles for devices with 1900px width and above */
+    header{
+        height: 100px;
+        width: 100%;
+    }
+
+    /* Navigation styles for devices with 1900px width and above */
+    nav{
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        position: fixed;
+        background-color: white;
+        box-shadow: 0px 3px 3px 0px #5672ff;
+    }
+
+    .logo{
+        font-size: 17px;
+        font-weight: 600;
+        align-content: center;
+        text-align: center;
+        color: #5672ff;
+    }
+
+    .nav_links{
+        height: 100%;
+        width: 50px;
+    }
+
+    .nav_links>a{
+        display: none;
+    }
+
+    .sidemenu>i{
+        font-size: 20px;
+    }
+    .sidemenu>i:hover{
+        color: #2f43ff;
+        transition-duration: 300ms;
+        cursor: pointer;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: white; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #5672ff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #2f43ff;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    section{
+        height: 3200px;
+        width: 100%;
+    }
+
+    .hello{
+        height: 130px;
+        width: 100%;
+        display: grid;
+        place-content: center;
+    }
+
+    .hello>p{
+        height: 50px;
+        width: 22vw;
+        border: 2px solid #5672ff;
+        text-align: center;
+        align-content: center;
+        border-radius: 26px 26px 26px 26px;
+        font-weight: 600;
+        color: #5672ff;
+    }
+
+    .first_intro{
+        height: 180px;
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .second_intro{
+        height: 800px;
+        width: 100%;
+        display: grid;
+        place-content: center;
+        gap: 30px;
+    }
+
+    .about{
+        width: 94vw;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .second_intro>img{
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 15px 0px #5672ff;
+        margin-left: 40px;
+    }
+
+    .second_intro>p{
+        height: 200px;
+        width: 92vw;
+        font-weight: 600;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .heading{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        color: #5672ff;
+    }
+
+    .interests_div{
+        height: 1800px;
+        width: 100%;
+    }
+
+    .interests{
+        height: 1400px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .interests>div{
+        height: 400px;
+        width: 72vw;
+        border-radius: 3%;
+        box-shadow: 0px 0px 10px 0px #5672ff;
+    }
+    .interests>div:hover{
+        box-shadow: 0px 0px 20px 0px #5672ff;
+        transition-duration: 300ms;
+    }
+
+    .interest_img{
+        height: 300px;
+        width: 100%;
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+
+    .interest_title{
+        text-align: center;
+        font-weight: 600;
+        color: #5672ff;
+        font-size: 20px;
+    }
+}
 @media screen and (min-width: 400px) and (max-width: 499px){
     /* Header styles for devices with 1900px width and above */
     header{
@@ -28,7 +407,6 @@ body{
     }
 
     .logo{
-        border: 1px solid;
         font-size: 18px;
         font-weight: 600;
         align-content: center;
@@ -39,13 +417,57 @@ body{
     .nav_links{
         height: 100%;
         width: 100px;
-        border: 1px solid;
     }
 
     .nav_links>a{
         display: none;
     }
 
+    .sidemenu>i{
+        font-size: 20px;
+    }
+    .sidemenu>i:hover{
+        color: #2f43ff;
+        transition-duration: 300ms;
+        cursor: pointer;
+    }
+
+    .sidenav {
+        height: 100%; /* 100% Full-height */
+        width: 0; /* 0 width - change this with JavaScript */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Stay on top */
+        top: 0; /* Stay at the top */
+        left: 0;
+        background-color: white; /* Black*/
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 60px; /* Place content 60px from the top */
+        transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #5672ff;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #2f43ff;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
     section{
         height: 3200px;
         width: 100%;
@@ -60,7 +482,7 @@ body{
 
     .hello>p{
         height: 50px;
-        width: 14vw;
+        width: 18vw;
         border: 2px solid #5672ff;
         text-align: center;
         align-content: center;
@@ -86,7 +508,7 @@ body{
     }
 
     .about{
-        width: 55vw;
+        width: 80vw;
         font-weight: 600;
         font-size: 15px;
         text-align: center;
@@ -100,7 +522,7 @@ body{
 
     .second_intro>p{
         height: 200px;
-        width: 55vw;
+        width: 80vw;
         font-weight: 600;
         font-size: 15px;
         text-align: center;
@@ -115,12 +537,12 @@ body{
     }
 
     .interests_div{
-        height: 1400px;
+        height: 1800px;
         width: 100%;
     }
 
     .interests{
-        height: 1200px;
+        height: 1400px;
         width: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -130,7 +552,7 @@ body{
 
     .interests>div{
         height: 400px;
-        width: 43vw;
+        width: 62vw;
         border-radius: 3%;
         box-shadow: 0px 0px 10px 0px #5672ff;
     }
@@ -206,6 +628,9 @@ body{
         background-color: #2f43ff;
         color: white;
 
+    }
+    .sidenav{
+        display: none;
     }
 
     section{
@@ -370,6 +795,9 @@ body{
 
     }
 
+    .sidenav{
+        display: none;
+    }
     section{
         height: 3200px;
         width: 100%;
@@ -532,6 +960,9 @@ body{
 
     }
 
+    .sidenav{
+        display: none;
+    }
     section{
         height: 2800px;
         width: 100%;
@@ -693,6 +1124,9 @@ body{
 
     }
 
+    .sidenav{
+        display: none;
+    }
     section{
         height: 2200px;
         width: 100%;
@@ -2260,6 +2694,12 @@ body{
 
     }
 
+    .sidemenu{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
     section{
         height: 2200px;
         width: 100%;
@@ -2416,6 +2856,12 @@ body{
 
     }
 
+    .sidemenu{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
     section{
         height: 2200px;
         width: 100%;
@@ -2573,6 +3019,12 @@ body{
 
     }
 
+    .sidemenu{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+    }
     section{
         height: 2200px;
         width: 100%;
